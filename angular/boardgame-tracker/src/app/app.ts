@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { GameListComponent } from './components/game-list/game-list';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [GameListComponent],
-  template: `<app-game-list></app-game-list>`
+  imports: [RouterOutlet],
+  template: `<router-outlet></router-outlet>`
 })
 export class App {}

@@ -1,0 +1,37 @@
+<div *ngIf="game">
+    <h1>{{ game.name }}</h1>
+    <div class="game-container">
+        <div class="game-image">
+            <img [src]="game.image_url" alt="{{ game.name }}">
+        </div>
+        <div class="game-info">
+            <p><strong>📅 Ano</strong></p>
+            <span>{{ game.year }}</span>
+            <p><strong>🏆 Ranking</strong></p>
+            <span>#{{ game.rank }}</span>
+            <p><strong>⭐ Rating</strong></p>
+            <span>{{ game.rating }}</span>
+            <p><strong>⚖️ Complexidade</strong></p>
+            <span>{{ game.weight }}</span>
+        </div>
+    </div>
+    <h2>💰 Comparação de Preços</h2>
+    <table *ngIf="prices.length">
+        <thead>
+            <tr>
+                <th>Loja</th>
+                <th>Preço</th>
+                <th>Stock</th>
+                <th>Atualizado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let price of prices">
+                <td>{{ price.store }}</td>
+                <td>{{ price.price }} €</td>
+                <td>{{ price.stock }}</td>
+                <td>{{ price.date }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

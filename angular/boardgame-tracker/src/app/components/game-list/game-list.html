@@ -1,0 +1,19 @@
+
+<h1>Board Game Tracker</h1>
+
+<div class="games-grid">
+  <div
+    class="game-card"
+    *ngFor="let game of games"
+    (click)="goToGame(game)"
+  >
+    <img [src]="game.image_url" [alt]="game.name">
+
+    <div class="game-info">
+      <h2>{{ game.name }}</h2> 
+      <p>⭐ {{ game.rating }}</p>
+      <p>🏆 #{{ game.rank }}</p>
+      <p>📅 {{ game.year }}</p>
+    </div> 
+  </div>
+</div> 

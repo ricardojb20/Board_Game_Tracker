@@ -1,0 +1,47 @@
+   {"id": 224517, 
+"url": "https://boardgamegeek.com/boardgame/224517/brass-birmingham"},
+https://saltadacaixa.pt/products/brass-birmingham-deluxe-8436578817627?_pos=1&_sid=a8ca2ce56&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/2497-brass-birmingham-9781988884042.html
+
+  {"id": 329500, "url": "https://boardgamegeek.com/boardgame/329500/unconscious-mind"},
+https://saltadacaixa.pt/products/unconscious-mind-5298003050503?_pos=1&_sid=f5c66a145&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/5692-unconscious-mind-5298003050503.html
+
+  {"id": 316554, "url": "https://boardgamegeek.com/boardgame/316554/dune-imperium"},
+https://saltadacaixa.pt/products/dune-imperium-810058800008?_pos=4&_sid=0b5d714d9&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/3850-dune-imperium-810058800008.html
+
+  {"id": 418059, "url": "https://boardgamegeek.com/boardgame/418059/seti-search-for-extraterrestrial-intelligence"},
+https://saltadacaixa.pt/products/seti-search-for-extraterrestrial-intelligence-8594156311209?_pos=4&_sid=d640d15d6&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/5608-seti-search-for-extraterrestrial-intelligence-8594156311209.html
+
+   {"id": 359871, "url": "https://boardgamegeek.com/boardgame/359871/arcs"},
+https://saltadacaixa.pt/products/arcs-672975032661?srsltid=AfmBOorX20HSSZTArDDCcMbpvQwsLf1DQMr8c1W2K-KsSUEIgbioONCJ
+https://gameplay.pt/pt/jogos-de-tabuleiro/5650-arcs-672975032661.html
+
+   {"id": 175640, "url": "https://boardgamegeek.com/boardgame/175640/vinhos-deluxe-edition"},
+https://saltadacaixa.pt/products/vinhos-deluxe-edition-810131320447?_pos=1&_sid=0b3bb0a92&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/1959-vinhos-deluxe-609456647465.html
+
+   {"id": 237179, "url": "https://boardgamegeek.com/boardgame/237179/weather-machine"}
+https://saltadacaixa.pt/products/weather-machine-736640880207?_pos=1&_sid=f60152d14&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/4902-weather-machine-736640880206.html
+
+   {"id": 373667, "url": "https://boardgamegeek.com/boardgame/373667/house-of-fado"},
+https://saltadacaixa.pt/products/house-of-fado-810131320553?_pos=2&_sid=9b4409f79&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/5958-house-of-fado-810131320553.html
+
+   {"id": 375459, "url": "https://boardgamegeek.com/boardgame/375459/speakeasy"},
+https://saltadacaixa.pt/products/speakeasy-ks-bundle-810131320577?_pos=1&_sid=b5c731c87&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/6041-speakeasy-810131320577.html
+
+   {"id": 321608, "url": "https://boardgamegeek.com/boardgame/321608/hegemony-lead-your-class-to-victory"},
+https://saltadacaixa.pt/products/hegemony-lead-your-class-to-victory-0753692068918?_pos=5&_sid=05afc4579&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/5065-hegemony-lead-your-class-to-victory-753692068918.html
+
+{"id": 337627, "url": "https://boardgamegeek.com/boardgame/337627/voidfall"},
+https://saltadacaixa.pt/products/voidfall-5999138700133?_pos=1&_sid=0ad8e558c&_ss=r
+https://gameplay.pt/pt/jogos-de-tabuleiro/5266-voidfall-793888724914.html
+
+{"id": 357873, "url": "https://boardgamegeek.com/boardgame/357873/the-old-kings-crown"}
+

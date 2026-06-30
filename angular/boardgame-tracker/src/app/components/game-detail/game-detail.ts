@@ -1,39 +1,31 @@
-import {Component, OnInit, ChangeDetectorRef} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {ActivatedRoute} from '@angular/router';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
 
-import {GameService} from '../../services/game.service';
-import {Game} from '../../models/game';
-import {Price} from '../../models/price';
+import { GameService } from '../../services/game.service';
+import { Game } from '../../models/game';
+import { Price } from '../../models/price';
 
 @Component({
   selector: 'app-game-detail',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './game-detail.html',
-    styleUrls: ['./game-detail.css']
+  styleUrls: ['./game-detail.css']
 })
-export class GameDetailComponent implements OnInit {
-    game?: Game;
-    prices: Price[] = [];
+export class GameDetailComponent {
 
-    constructor(
-        private route: ActivatedRoute,
-        private gameService: GameService,
-        private cdr: ChangeDetectorRef
-    ) {}
+  game$: Observable<Game>;
+  prices$: Observable<Price[]>;
 
-    ngOnInit(): void {
-        const gameId = Number(this.route.snapshot.paramMap.get('id'));
+  constructor(private route: ActivatedRoute,private gameService: GameService) {
 
-        this.gameService.getGameById(gameId).subscribe((game) => {
-            this.game = game;
-            this.cdr.detectChanges();
-        });
+    const gameId = Number(this.route.snapshot.paramMap.get('id'));
 
-        this.gameService.getPricesByGameId(gameId).subscribe((prices) => {
-            this.prices = prices;
-            this.cdr.detectChanges();
-        });
-    }
+    this.game$ = this.gameService.getGameById(gameId);
+    this.prices$ = this.gameService.getPricesByGameId(gameId);
+
+  }
+
 }

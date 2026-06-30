@@ -1,9 +1,10 @@
 <h1>Board Game Tracker</h1>
+@if (games$ | async; as games) {
 <div class="games-grid">
-    <div class="game-card"
-         *ngFor="let game of games"
-         (click)="goToGame(game)">
-        <img [src]="game.image_url" alt="{{ game.name }}">
+    @for (game of games; track game.id_game) {
+    <div class="game-card" (click)="goToGame(game)">
+        <img [src]="game.image_url"
+             [alt]="game.name">
         <div class="game-info">
             <h2>{{ game.name }}</h2>
             <p><strong>📅 Ano:</strong> {{ game.year }}</p>
@@ -12,4 +13,7 @@
             <p><strong>⚖️ Complexidade:</strong> {{ game.weight }}</p>
         </div>
     </div>
+    }
 </div>
+
+}
